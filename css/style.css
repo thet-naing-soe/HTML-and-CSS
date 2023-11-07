@@ -1,0 +1,77 @@
+body {
+    background: #243010;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.header-bg {
+    background: url("../images/brown-camel-931881.jpg") no-repeat ;
+    background-position: center;
+    background-size: cover;
+    height: 260px;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    opacity: 0.3;
+}
+.header-content {
+    padding: 3em 1.5em 0;
+    min-height: 220px;
+}
+section {
+    background-color: #243010;
+    
+}
+.article-1 .dest {
+    background-color: #2A3C24;
+    display: inline-block;
+    width: 40%;
+}
+.dest img {
+    width: 100%;
+}
+.btn {
+    background-color: #243010;
+    padding: 1em 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 1px solid #87A330;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+}
+.btn:hover {
+    background-color: #A1C349;
+}
+
+.article-2 .dest {
+    min-height: 100px;
+    
+}
+
+.article-2 .dest1 {
+    background-color: #87A330;
+    min-height: 100px;
+    padding-bottom: 2rem;
+}
+.article-2 .dest2 {
+    background-color: #A1C349;
+    min-height: 100px;
+    padding-bottom: 2rem;
+}
+footer {
+    background-color: #CAD593;
+    height: 50px;
+    color: black;
+    line-height: 50px;
+}
+h2, h3, p {
+    margin: 0;
+}
+h2, h3  {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
